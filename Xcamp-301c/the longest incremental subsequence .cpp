@@ -36,6 +36,5 @@ int main(){
         output = max(output, greatest + 1);
     }
     cout << output;
-
     return 0;
 }
