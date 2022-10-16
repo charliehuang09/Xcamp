@@ -165,4 +165,4 @@ add_executable(Xcamp
         "Xcamp-301c/Triangle of Numbers (Iteritive).cpp"
         "Xcamp-301c/Triangle of Numbers (Recursive).cpp"
         "Xcamp-301c/Truck delivery.cpp"
-        "Xcamp-301c/Zeros and Ones.cpp")
+        "Xcamp-301c/Zeros and Ones.cpp" "Xcamp-301c/Grocery Shopping.cpp" "Xcamp-301c/Weigh with Weights.cpp" "Xcamp-301c/Longest Word Chain.cpp" "Xcamp-301c/Two Sets II.cpp")
