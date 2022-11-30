@@ -15,4 +15,13 @@ int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
+    int bucket1, capacity1;
+    int bucket2, capacity2;
+    int bucket3, capacity3;
+    cin >> bucket1 >> capacity1 >> bucket2 >> capacity2 >> bucket3 >> capacity3;
+    for (int i = 0; i < 33; i++){
+        int t = capacity2;
+//        capacity2 =
+    }
+
 }

@@ -19,18 +19,21 @@
 //};
 //int main(int argc, const char * argv[]) {
 //    queue<PNT> q;
-//    int size,sx,sy,ex,ey;
-//    cin >> size >> sy >> sx >> ey >> ex;
-//    int visited[size][size];
-//    int dist[size][size];
-//    for (int i = 0; i < size; i++){
-//        for (int j = 0; j < size; j++){
+//    int sizex,sizey,sx,sy;
+//    cin >> sizex >> sizey >> sx >> sy;
+//    sx--;
+//    sy--;
+//    int visited[sizex][sizey];
+//    int dist[sizex][sizey];
+//    for (int i = 0; i < sizex; i++){
+//        for (int j = 0; j < sizey; j++){
 //            visited[i][j] = 0;
-//            dist[i][j] = 0;
+//            dist[i][j] = -1;
 //        }
 //    }
 //
 //    visited[sx][sy] = 1;
+//    dist[sx][sy] = 0;
 //    q.push(PNT(sx,sy));
 //
 //    while(!q.empty()) {
@@ -41,19 +44,20 @@
 //            int nx = pt.x + dx[i];
 //            int ny = pt.y + dy[i];
 //
-//            if (nx >= 0 && nx < size && ny >= 0 && ny < size && visited[nx][ny] == 0) { // can move
+//            if (nx >= 0 && nx < sizex && ny >= 0 && ny < sizey && visited[nx][ny] == 0) { // can move
 //                visited[nx][ny] = 1;
 //                dist[nx][ny] = dist[pt.x][pt.y] + 1; // shortest path to this pos
-//                if (nx == ex && ny == ey) {
-//                    cout << dist[nx][ny]; // we are at end point
-//                    return 0;
-//                }
 //                q.push(PNT(nx, ny));
 //            }
 //        }
 //    }
-//
-//    cout << "No solution"; // if can't reach end point
+//    for (int i = 0; i < sizex; i++){
+//        for (int j = 0; j < sizey; j++){
+//            cout << dist[i][j] << " ";
+//        }
+//        cout << "\n";
+//    }
+////    cout << "No solution"; // if can't reach end point
 //}
 ///*
 //10
