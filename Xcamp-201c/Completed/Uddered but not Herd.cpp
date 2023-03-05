@@ -10,7 +10,7 @@
 //        cowphebat[alph[i]] = i;
 //    }
 //    int remain = word.size();
-//    int ans = 0;
+//    int output = 0;
 //    int point = cowphebat[word[0]];
 //    word.erase(word.begin());
 //    while(word.size() != 0){
@@ -20,12 +20,12 @@
 //        }
 //        else{
 //            // cout << word.size() << " ";
-//            ans++;
+//            output++;
 //            point = cowphebat[word[0]];
 //            word.erase(word.begin());
 //
 //        }
 //    }
-//    cout  << ans + 1;
+//    cout  << output + 1;
 //
 //}

@@ -7,9 +7,9 @@
 #include <algorithm>
 #include <iomanip>
 #include <cmath>
+#define INT_MAX 2147483647
 #define ll long long
 using namespace std;
-const string albert = "Albert is a Furry\n";
 
 int main(){
     ios_base::sync_with_stdio(0);

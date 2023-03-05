@@ -5,10 +5,10 @@
 //#include <queue>
 //#include <algorithm>
 //using namespace std;
-//vector<int> ans;
+//vector<int> output;
 //void cout_(){
-//    for (int i = 0; i < ans.size(); i++){
-//        cout << ans[i] << " ";
+//    for (int i = 0; i < output.size(); i++){
+//        cout << output[i] << " ";
 //    }
 //}
 //int main(){
@@ -22,17 +22,17 @@
 //    set<int> number;
 //    while (true){
 //        bool done = true;/;p0.;
-//        ans.clear();
+//        output.clear();
 //        number.clear();
 //        test++;
 //        int size = 1;
 //        number.insert(test);
-//        ans.push_back(test);
+//        output.push_back(test);
 //        for (int i = 0; i < length - 1; i++){
 //            size++;
-//            int nextnum = input[i] - ans[ans.size() - 1];
+//            int nextnum = input[i] - output[output.size() - 1];
 //            number.insert(nextnum);
-//            ans.push_back(nextnum);
+//            output.push_back(nextnum);
 //            if (nextnum <= 0){
 //                done = false;
 //                break;

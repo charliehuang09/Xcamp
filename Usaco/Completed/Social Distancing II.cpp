@@ -32,10 +32,10 @@
 //    }
 //    r--;
 //    //cout << r << " ";
-//    int ans = 0;
+//    int output = 0;
 //    for (int i = 0; i < 1000100; i++){
 //        if (cow[i] == 2){//onfected
-//            ans++;
+//            output++;
 //            for (int j = 0; j < r; j++){
 //                i++;
 //                if (cow[i] == 2){
@@ -45,5 +45,5 @@
 //        }
 //    }
 //    cout << "\n\n";
-//    cout << ans;
+//    cout << output;
 //}

@@ -2,7 +2,7 @@
 //#include <stdlib.h>
 //#include<vector>
 //using namespace std;
-//int ans = 1;
+//int output = 1;
 //vector<string> board;
 //int dx[4] = {0,0,1,-1};
 //int dy[4] = {1,-1,0,0};
@@ -27,7 +27,7 @@
 //    for (int i = 0; i < 4; i++){
 //        if (inbounds(x + dx[i], y + dy[i]) == true){
 //            if (board[x + dx[i]][y + dy[i]] == '_'){
-//                ans++;
+//                output++;
 //                dfs(x + dx[i],y + dy[i]);
 //            }
 //        }
@@ -49,7 +49,7 @@
 //        }
 //    }
 //    dfs(x,y);
-//    cout << ans;
+//    cout << output;
 //}
 ///*
 //4

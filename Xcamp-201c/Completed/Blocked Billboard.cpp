@@ -10,7 +10,7 @@
 //};
 //int board[2001][2001];
 //int main() {
-//    int ans = 0;
+//    int output = 0;
 //    rect b1;
 //    rect b2;
 //    rect t1;
@@ -52,10 +52,10 @@
 //        for (int j = 0; j < 2001; j++){
 //            if (board[i][j] == 1){
 //                board[i][j] = 0;
-//                ans++;
+//                output++;
 //            }
 //        }
 //    }
-//    cout << ans;
+//    cout << output;
 //    return 0;
 //}

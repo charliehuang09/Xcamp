@@ -15,12 +15,12 @@
 //        sortarr[i] = arr[i];
 //    }
 //    sort(arr, arr + length);
-//    int ans = 0;
+//    int output = 0;
 //    for (int i = 0; i < length; i++){
 //        if (sortarr[i] != arr[i])
-//            ans++;
+//            output++;
 //    }
-//    cout << ans - 1;
+//    cout << output - 1;
 //
 //}
 ////2 4 7 7 9 3

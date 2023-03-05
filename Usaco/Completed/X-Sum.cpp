@@ -69,12 +69,12 @@
 //    cin>>t;
 //    for(int testcase = 0;testcase<t;testcase++){
 //        read();
-//        int ans = 0;
+//        int output = 0;
 //        for(int i = 0;i<n;i++){
 //            for(int j = 0;j<m;j++){
-//                ans = max(ans,attack(i,j));
+//                output = max(output,attack(i,j));
 //            }
 //        }
-//        cout<<ans<<endl;
+//        cout<<output<<endl;
 //    }
 //}

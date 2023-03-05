@@ -45,19 +45,19 @@
 //            deduce(i, input[i]);
 //        }
 //    }
-//    int ans = 0;
+//    int output = 0;
 //    for (int i = 0; i < length; i++){
 //        if (input[i] == 0){
-//            ans++;
+//            output++;
 //        }
 //    }
-//    cout << ans << " ";
+//    cout << output << " ";
 //    for (int i = 0; i < length; i++){
 //        if (input[i] == -1){
-//            ans++;
+//            output++;
 //        }
 //    }
-//    cout << ans;
+//    cout << output;
 //    cout << "\n\n";
 //    //print();
 //}

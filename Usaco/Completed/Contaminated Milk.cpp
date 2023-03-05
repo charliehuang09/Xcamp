@@ -56,7 +56,7 @@
 //            contaminated.push_back(i);
 //        }
 //    }
-//    int ans = -1;
+//    int output = -1;
 //    int localans = 0;
 //    for (int i = 0; i < contaminated.size(); i++){
 //        localans = 0;
@@ -69,8 +69,8 @@
 //                }
 //            }
 //        }
-//        if (localans >= ans){
-//            ans = localans;
+//        if (localans >= output){
+//            output = localans;
 //        }
 //        // cout << localans << " ";
 //    }
@@ -78,7 +78,7 @@
 //    // for (int i = 0; i < contaminated.size(); i++){
 //    //     cout << contaminated[i] << " ";
 //    // }
-//    cout << "\n\n" << ans;
+//    cout << "\n\n" << output;
 //}
 //// struct person{
 ////     int time;

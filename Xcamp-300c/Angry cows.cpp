@@ -7,13 +7,13 @@
 //#include <algorithm>
 //#define ll long long
 //using namespace std;
-//int length, cows, t, maximum = 0;
+//int length, rooms, t, maximum = 0;
 //vector<int> input;
 //
 //bool is_valid(int x){
 //    int value = -x;
 //    int index = 0;
-//    for (int i = 0; i < cows; i++){
+//    for (int i = 0; i < rooms; i++){
 //        value += x;
 //        while(input[index] < value){
 //            index++;
@@ -36,7 +36,7 @@
 //    ios_base::sync_with_stdio(0);
 //    cin.tie(0);
 //
-//    cin >> length >> cows;
+//    cin >> length >> rooms;
 //    int l = 0;
 //    int r = 0;
 //    for (int i = 0; i < length; i++){

@@ -136,25 +136,25 @@
 //    // }
 //
 //
-//    long long int ans = 2147483647;
+//    long long int output = 2147483647;
 //
 //    for (int i = 0; i < colm; i++){
 //        for (int j = 0; j < row; j++){
 //           if (maze[i][j] == 'F'){
-//               if (dist1[i][j] + dist2[i][j] < ans && dist1[i][j] + dist2[i][j] != 0){
+//               if (dist1[i][j] + dist2[i][j] < output && dist1[i][j] + dist2[i][j] != 0){
 //                   if (dist1[i][j] != 0 && dist2[i][j] != 0){
-//                       ans = dist1[i][j] + dist2[i][j];
+//                       output = dist1[i][j] + dist2[i][j];
 //                   }
 //               }
 //           }
 //        }
 //    }
-//    if (ans == 2147483647){
+//    if (output == 2147483647){
 //        cout << "Meeting cancelled";
 //        return 0;
 //    }
-//    cout << ans;
-//    //cout << "\n\n\n\n" << ans;
+//    cout << output;
+//    //cout << "\n\n\n\n" << output;
 //}
 //
 //

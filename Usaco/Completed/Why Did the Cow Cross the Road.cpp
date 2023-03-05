@@ -10,7 +10,7 @@
 //    cin >> length;
 //    int id, pos;
 //    map<int, int> m;
-//    int ans = 0;
+//    int output = 0;
 //    for (int i = 0; i < length; i++){
 //        cin >> id >> pos;
 //        pos++;
@@ -19,10 +19,10 @@
 //            continue;
 //        }
 //        if (m[id] != pos){
-//            ans++;
+//            output++;
 //            m[id] = pos;
 //        }
 //    }
-//    cout << "\n" << ans;
+//    cout << "\n" << output;
 //
 //}

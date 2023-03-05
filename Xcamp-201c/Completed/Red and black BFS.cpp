@@ -39,9 +39,9 @@
 //    }
 //    queue<PNT> q;
 //    q.push(PNT(sx,sy));
-//    long long ans = 0;
+//    long long output = 0;
 //    while(!q.empty()) {
-//        ans++;
+//        output++;
 //        PNT pt = q.front();
 //        q.pop(); // remove front
 //
@@ -60,16 +60,16 @@
 //    for (int i = 0; i < colm; i++){
 //        for (int j = 0; j < row; j++){
 //            if (board[i][j] == 1){
-//                ans++;
+//                output++;
 //            }
 //        }
 //    }
-//    if (ans == 1 || 0){
+//    if (output == 1 || 0){
 //        cout << 1;
 //        return 0;
 //    }
-//    ans--;
-//    cout << ans;
+//    output--;
+//    cout << output;
 //}
 //
 //

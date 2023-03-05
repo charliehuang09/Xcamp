@@ -45,7 +45,7 @@
 //            oddnum++;
 //        }
 //    }
-//    int ans = 0;
+//    int output = 0;
 //    string evenodd = "even";
 //    while (oddnum > evennum){
 //        oddnum-=2;

@@ -13,15 +13,15 @@
 //        cin >> t;
 //        cin >> input[i];
 //    }
-//    long int ans = 1;
+//    long int output = 1;
 //    long int slowest = input[length - 1];
 //    for (int i = length - 2; i >= 0; i--){
 //        if (slowest >= input[i]){
 //            slowest = input[i];
-//            ans++;
+//            output++;
 //        }
 //    }
-//    cout << ans;
+//    cout << output;
 //}
 ///*
 //5

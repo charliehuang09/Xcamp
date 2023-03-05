@@ -2,7 +2,7 @@
 //#include <queue>
 //#include <math.h>
 //using namespace std;
-//int amount, ans = 0;//of hay
+//int amount, output = 0;//of hay
 //void dfs(int space, int current, int arr[4]){
 //  if (current == 4){
 //    if (space == amount) {
@@ -10,7 +10,7 @@
 //      //   cout << arr[x] << " ";
 //      // }
 //      // cout << "\n";
-//      ans++;
+//      output++;
 //    }
 //    return;
 //  }
@@ -25,7 +25,7 @@
 //  cin >> amount;
 //  int arr[4] = {-1,-1,-1,-1};
 //  dfs(0,0,arr);
-//  cout << " " << ans;
+//  cout << " " << output;
 //
 //
 //

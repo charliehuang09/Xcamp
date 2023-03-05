@@ -27,13 +27,13 @@
 //int main(){
 //    unsigned long long int length;
 //    cin >> length;
-//    unsigned long long int ans[length];
+//    unsigned long long int output[length];
 //    unsigned long long int temp;
 //    for (unsigned long long int i = 0; i < length; i++){
 //        cin >> temp;
-//        ans[i] = solve(temp);
+//        output[i] = solve(temp);
 //    }
 //    for (unsigned long long int i = 0; i < length; i++){
-//        cout << ans[i] << " ";
+//        cout << output[i] << " ";
 //    }
 //}

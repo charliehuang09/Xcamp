@@ -10,7 +10,7 @@
 //    coord ur;
 //};
 //int main() {
-//    int ans = 0;
+//    int output = 0;
 //    rect b1;
 //    rect b2;
 //    cin >> b1.ll.x >> b1.ll.y >> b1.ur.x >> b1.ur.y;

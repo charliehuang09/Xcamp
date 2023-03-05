@@ -38,18 +38,18 @@
 //            input[i].dest.push_back(t);
 //        }
 //    }
-//    int ans = 1000000;
+//    int output = 1000000;
 //    for (int i = 0; i < length; i++){
 //        if (ok(start, end, input[i].dest)){
-//            if (input[i].cost < ans){
-//                ans = input[i].cost;
+//            if (input[i].cost < output){
+//                output = input[i].cost;
 //            }
 //        }
 //    }
-//    if (ans == 1000000){
+//    if (output == 1000000){
 //        cout << "-1";
 //        return 0;
 //    }
-//    cout << ans << "\n";
+//    cout << output << "\n";
 //
 //}

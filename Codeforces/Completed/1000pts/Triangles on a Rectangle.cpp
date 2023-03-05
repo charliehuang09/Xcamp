@@ -19,32 +19,32 @@
 //    sort (s2.begin(), s2.end());
 //    sort (f.begin(), f.end());
 //    sort (c.begin(), c.end());
-//    long long int ans[4];
+//    long long int output[4];
 //    long long int bottom = s1[0];
 //    long long int top = s1[s1_size - 1];
-//    ans[0] = area(abs(bottom - top), recty);
+//    output[0] = area(abs(bottom - top), recty);
 //
 //    bottom = s2[0];
 //    top = s2[s2_size - 1];
-//    ans[1] = area(abs(bottom - top), recty);
+//    output[1] = area(abs(bottom - top), recty);
 //
 //    bottom = f[0];
 //    top = f[f_size - 1];
-//    ans[2] = area(abs(bottom - top), rectx);
+//    output[2] = area(abs(bottom - top), rectx);
 //
 //    bottom = c[0];
 //    top = c[c_size - 1];
-//    ans[3] = area(abs(bottom - top), rectx);
+//    output[3] = area(abs(bottom - top), rectx);
 //
-//    sort(ans, ans + 4);
-//    return ans[3];
+//    sort(output, output + 4);
+//    return output[3];
 //
 //
 //}
 //int main(){
 //    long long int length,t;
 //    cin >> length;
-//    long long int ans[length];
+//    long long int output[length];
 //    vector <long long int> s1;
 //    vector <long long int> s2;
 //    vector <long long int> f;
@@ -80,10 +80,10 @@
 //            cin >> t;
 //            c.push_back(t);
 //        }
-//        ans[index] = solve(rectx, recty, s1, s2, f, c);
+//        output[index] = solve(rectx, recty, s1, s2, f, c);
 //    }
 //    //cout << "D";
 //    for (long long int i = 0; i < length; i++){
-//        cout << ans[i] << "\n";
+//        cout << output[i] << "\n";
 //    }
 //}

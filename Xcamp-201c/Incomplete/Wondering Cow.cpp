@@ -12,7 +12,7 @@
 //coord start;
 //coord finish;
 //int colm,row;
-//int ans = 0;
+//int output = 0;
 //int dx[4] = {1,-1,0,0};
 //int dy[4] = {0,0,1,-1};
 //vector<string> board;
@@ -26,7 +26,7 @@
 //    if (moves == steps) {
 //        if (x == finish.x-1 && y == finish.y-1){
 //          //cout << "yay";
-//          ans++;
+//          output++;
 //          return;
 //        }
 //        //cout << "no " << endl;
@@ -53,7 +53,7 @@
 //    cin >> start.x >> start.y;
 //    cin >> finish.x >> finish.y;
 //    dfs(start.x-1, start.y-1, 0);
-//    cout << ans;
+//    cout << output;
 //
 //}
 ///*

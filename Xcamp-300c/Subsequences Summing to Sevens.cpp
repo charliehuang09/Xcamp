@@ -23,10 +23,10 @@
 //        }
 //    }
 //
-//    int ans = 0;
+//    int output = 0;
 //    for (auto & sum : sums){
-//        ans = max(sum[1] - sum[0], ans);
+//        output = max(sum[1] - sum[0], output);
 //    }
-//    cout << ans;
+//    cout << output;
 //
 //}

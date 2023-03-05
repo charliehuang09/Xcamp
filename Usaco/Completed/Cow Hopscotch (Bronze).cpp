@@ -5,11 +5,11 @@
 //#include <queue>
 //#include <algorithm>
 //using namespace std;
-//int ans = 0;
+//int output = 0;
 //int col,row;
 //void dfs(int x, int y,string board[]){
 //    if (x == col - 1 && y == row - 1){
-//        ans++;
+//        output++;
 //        return;
 //    }
 //    char self = board[x][y];
@@ -29,7 +29,7 @@
 //        cin >> input[i];
 //    }
 //    dfs(0,0,input);
-//    cout << ans;
+//    cout << output;
 //    return 0;
 //
 //

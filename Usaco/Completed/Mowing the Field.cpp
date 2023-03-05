@@ -34,15 +34,15 @@
 //        cin >> input[i].direction;
 //        cin >> input[i].length;
 //    }
-//    int ans = 23142214;
+//    int output = 23142214;
 //    int x = 1000, y = 1000;
 //    int current = 1;//time --!
 //    board[x][y] = 1;
 //    for (int i = 0; i < length; i++){
 //        for (int j = 0; j < input[i].length; j++){
 //            if (board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]] != 0){
-//                if (current - board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]] < ans){
-//                    ans = current - board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]];
+//                if (current - board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]] < output){
+//                    output = current - board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]];
 //                }
 //                current++;
 //                board[x + dx[key[input[i].direction]]][y + dy[key[input[i].direction]]] = current;
@@ -59,10 +59,10 @@
 //        }
 //    }
 //    //print();
-//    if (ans == 23142214){
+//    if (output == 23142214){
 //        cout << -1;
 //        return 0;
 //    }
-//    cout << ans + 1;
+//    cout << output + 1;
 //}
 //

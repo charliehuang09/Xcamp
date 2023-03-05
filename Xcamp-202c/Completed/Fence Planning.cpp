@@ -66,8 +66,8 @@
 //}
 //
 //int main(){
-//    int cows, edges;
-//    cin >> cows >> edges;
+//    int rooms, edges;
+//    cin >> rooms >> edges;
 //    int a,b;
 //    vector<coord> size;
 //    vector<coord> minimum;
@@ -77,7 +77,7 @@
 //    max_template.y = 2147483647;
 //    empty.x = -1;
 //    empty.y = -1;
-//    for (int i = 0; i < cows; i++){
+//    for (int i = 0; i < rooms; i++){
 //         cin >> a >> b;
 //         cow t;
 //         t.x = a;
@@ -96,7 +96,7 @@
 //        unite(a,b);
 //    }
 //
-//    for (int i = 0; i < cows; i++){
+//    for (int i = 0; i < rooms; i++){
 //        int root = get_root(i);
 //        size[root].x = max(size[root].x, parent[i].x);
 //        size[root].y = max(size[root].y, parent[i].y);
@@ -114,7 +114,7 @@
 ////    }
 ////    cout << "\n";
 //    int output = 2147483647;
-//    for (int i = 0; i < cows; i++){
+//    for (int i = 0; i < rooms; i++){
 //        if (output > ((size[i].x - minimum[i].x) + (size[i].y - minimum[i].y)) * 2 && check(size[i], minimum[i])){
 //            output = ((size[i].x - minimum[i].x) + (size[i].y - minimum[i].y)) * 2;
 ////            cout << output;

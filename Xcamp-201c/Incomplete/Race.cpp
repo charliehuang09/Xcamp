@@ -5,7 +5,7 @@
 //#include <stdio.h>
 //using namespace std;
 //int endpoint, length;
-//vector<int> ans;
+//vector<int> output;
 //map<int, int> input;
 //void recurssion(int current, int speed, int step){
 //    cout << speed << "\n";
@@ -37,7 +37,7 @@
 //    cin >> endpoint >> length;
 //    int temp;
 //    for (int i = 0; i < length; i++){
-//        ans.push_back(10000);
+//        output.push_back(10000);
 //    }
 //    for (int i = 0; i < length; i++){
 //        cin >> temp;
@@ -48,7 +48,7 @@
 //    recurssion(0, 0, 0);
 //    cout << "\n\n\n";
 //    for (int i = 0; i < length; i++){
-//        cout << ans[i] << "\n";
+//        cout << output[i] << "\n";
 //    }
 //
 //    return 0;

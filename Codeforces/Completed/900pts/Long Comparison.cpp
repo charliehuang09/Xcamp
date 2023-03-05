@@ -38,14 +38,14 @@
 //int main(){
 //    int testcases;
 //    cin >> testcases;
-//    char ans[testcases];
+//    char output[testcases];
 //    for (int i = 0; i < testcases; i++){
 //        string a,c;
 //        int b,d;
 //        cin >> a >> b >> c >> d;
-//        ans[i] = solve(a,b,c,d);
+//        output[i] = solve(a,b,c,d);
 //    }
 //    for (int i = 0; i < testcases; i++){
-//        cout << ans[i] << "\n";
+//        cout << output[i] << "\n";
 //    }
 //}
