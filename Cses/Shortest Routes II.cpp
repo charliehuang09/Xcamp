@@ -33,16 +33,12 @@
 //        graph[i][i] = 0;
 //        valid[i][i] = true;
 //    }
-//    for (int t = 0; t <= n; t++){
+//    for (int k = 0; k < n; k++){
 //        for (int i = 0; i < n; i++){
-//            for (int j = 0; j < n; j++){
-//                if (i == j) continue;
-//                for (int k = 0 ; k < n; k++){
-////                    if (k == i || k == j) continue;
-//                    if (valid[i][k] && valid[j][k]){
-//                        if (graph[i][j] == 0) graph[i][j] = graph[j][i] = graph[i][k] + graph[j][k], valid[i][j] = valid[j][i] = true;
-//                        else graph[i][j] = graph[j][i] = min(graph[i][j], graph[i][k] + graph[j][k]);
-//                    }
+//            for (int j = 0 ; j < n; j++){
+//                if (valid[i][k] && valid[j][k] && i != j){
+//                    if (graph[i][j] == 0) graph[i][j] = graph[j][i] = graph[i][k] + graph[j][k], valid[i][j] = valid[j][i] = true;
+//                    else graph[i][j] = graph[j][i] = min(graph[i][j], graph[i][k] + graph[j][k]);
 //                }
 //            }
 //        }
@@ -58,7 +54,8 @@
 //        int a, b;
 //        cin >> a >> b;
 //        a--; b--;
-//        if (graph[a][b] == 0) cout << -1;
+//        if (a == b) cout << 0;
+//        else if (graph[a][b] == 0) cout << -1;
 //        else cout << graph[a][b];
 //        cout << "\n";
 //    }
